@@ -1,0 +1,2 @@
+This Website is developed by Felipe Hanitzsch as a Portfolio to store and share the professional experience and education.
+Das Website wurde von Felipe Hanitzsch gestellt, als Portfolio zu Berufserfahrung und Ausbildung teilen.

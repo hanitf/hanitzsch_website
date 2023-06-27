@@ -25,7 +25,7 @@ a img, :link img, :visited img {
     background-color: rgb(255, 255, 255);
     height: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     padding-top: 40px;
     }

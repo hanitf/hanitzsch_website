@@ -1,5 +1,5 @@
 <script setup>
-import Aboutme from './components/Aboutme.vue';
+import Index from './components/Index.vue'
 import Projects from './components/Projects.vue';
 import Menu from './components/Menu.vue';
 import Footer from './components/Footer.vue';
@@ -14,16 +14,9 @@ import Contact from './components/Contact.vue';
     </div>
 
     <div class="divaboutme">
-      <Aboutme></Aboutme>
+      <Index></Index>
     </div>
 
-    <div class="divportfolio">
-      <Projects></Projects>
-    </div>
-
-    <div class="divcontact">
-      <Contact></Contact>
-    </div>
 
     <div class="divfooter">
       <Footer></Footer>
@@ -36,8 +29,9 @@ import Contact from './components/Contact.vue';
 <style scoped>
 
 body{
-  background-color: rgb(138, 37, 37);
+  background-color: rgb(255, 255, 255);
 }
+
 
 
 </style>

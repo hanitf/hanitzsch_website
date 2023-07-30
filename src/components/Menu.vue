@@ -4,54 +4,64 @@
 
 <template>
   <nav class="navelements">
-    
-      <div class="leftulmenu">
 
-        <li><a href="">Home</a></li>
-        <li><a href="">About me</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
+    <div class="leftulmenu">
 
+      <li><a href="">Home</a></li>
+      <li><a href="">Projects</a></li>
+      <li><a href="">Contact</a></li>
+
+    </div>
+
+
+
+    <div class="rightulmenu">
+      <div>
+        <a href="">
+          <img class="logogithub" src="./logos/githublogo.png" alt="">
+        </a>
       </div>
-    
-
-    
-      <div class="rightulmenu">
-
-        <a href="" class="linkgithub">Github</a>
+      <div>
+        <a href="">
+        <img class="logolinkedin" src="./logos/linkedinlogo.png" alt="">
+        </a>
+      </div>
+      <div>
         <button class="buttonresume" @click="">Resume</button>
-
       </div>
-    
-    </nav>
+    </div>
+
+  </nav>
 </template>
 
 <style scoped>
-
-.navelements{
- list-style: none;
+.navelements {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
+
 }
 
 
 .leftulmenu {
-  padding-left: 300px;
+  padding-left: 200px;
   width: 350px;
-  background-color: black;
   color: aliceblue;
   list-style: none;
   display: flex;
   justify-content: space-around;
- 
+  font-size: 19px;
+  font-family: Poppins;
+  letter-spacing: 1.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .rightulmenu {
-  padding-right: 200px;
+  padding-right: 180px;
   width: 300px;
-  background-color: black;
   color: aliceblue;
   list-style: none;
   display: flex;
@@ -59,9 +69,46 @@
   justify-content: space-around;
 }
 
-a
-{
-    text-decoration: none; 
-    color: white;
+a {
+  text-decoration: none;
+  color: rgb(142, 140, 140);
+}
+
+.buttonresume {
+
+  position: relative;
+  display: inline-block;
+  margin: 12px;
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.buttonresume:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.buttoresume:active {
+  transform: scale(0.9);
+}
+
+.logogithub {
+  padding-top: 9px;
+  width: 35px;
+}
+
+.logolinkedin {
+  padding-top: 6.3px;
+  width: 40px;
 }
 </style>

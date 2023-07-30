@@ -9,7 +9,6 @@
 
       <li><a href="">Home</a></li>
       <li><a href="">Projects</a></li>
-      <li><a href="">Contact</a></li>
 
     </div>
 
@@ -89,18 +88,18 @@ a {
   font-size: 15px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #725AC1;
+  color: #000000;
   background: transparent;
   cursor: pointer;
   transition: ease-out 0.5s;
-  border: 2px solid #725AC1;
+  border: 2px solid #000000;
   border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #725AC1;
+  box-shadow: inset 0 0 0 0 #000000;
 }
 
 .buttonresume:hover {
   color: white;
-  box-shadow: inset 0 -100px 0 0 #725AC1;
+  box-shadow: inset 0 -100px 0 0 #c9c5d4;
 }
 
 .buttoresume:active {

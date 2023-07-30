@@ -5,7 +5,7 @@
 <template>
   <div class="indexcss">
     <div>
-  <img class="indexlogo" src="src\components\logos\png\logowhite.png" alt="Logo">
+  <img class="indexlogo" src="./logos/png/logowhite.png" alt="Logo">
   </div>
   <div class="indexname">
     <p>Web Developer</p>

@@ -15,7 +15,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: bold;
 display: flex;
 justify-content: center;
-padding: 178px;
+padding: 175px;
 }
 
 

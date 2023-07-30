@@ -4,7 +4,7 @@
 
 <template>
   <div class="footerbody">
-  <p>Developed by Hanitzsch 2023.</p>
+  <p>Developed by Hanitzsch© 2023</p>
   </div>
 </template>
 

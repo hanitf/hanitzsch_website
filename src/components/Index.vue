@@ -20,7 +20,7 @@
 .indexcss {
 display: flex;
 flex-direction: row;
-padding-left: 150px;
+padding-left: 300px;
 padding-top: 250px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

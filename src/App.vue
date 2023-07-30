@@ -3,7 +3,7 @@ import Index from './components/Index.vue'
 import Projects from './components/Projects.vue';
 import Menu from './components/Menu.vue';
 import Footer from './components/Footer.vue';
-import Contact from './components/Contact.vue';
+
 </script>
 
 <template>

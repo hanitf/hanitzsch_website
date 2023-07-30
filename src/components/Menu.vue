@@ -17,13 +17,18 @@
 
     <div class="rightulmenu">
       <div>
-        <a href="">
+        <a href="https://github.com/hanitf">
           <img class="logogithub" src="./logos/githublogo.png" alt="">
         </a>
       </div>
       <div>
-        <a href="">
+        <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">
         <img class="logolinkedin" src="./logos/linkedinlogo.png" alt="">
+        </a>
+      </div>
+      <div>
+        <a href="mailto:felipe@hanitzsch.me">
+        <img class="logomail" src="./logos/maillogo.png" alt="">
         </a>
       </div>
       <div>
@@ -111,4 +116,9 @@ a {
   padding-top: 6.3px;
   width: 40px;
 }
+.logomail {
+  padding-top: 6.3px;
+  width: 40px;
+}
+
 </style>

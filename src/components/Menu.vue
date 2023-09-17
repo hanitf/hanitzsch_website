@@ -28,7 +28,7 @@
         </a>
       </div>
       <div>
-        <a download="src\resume\FELIPE_HANITZSCH_CV.pdf">
+        <a href="https://drive.google.com/file/d/1F61z7PyRPhRgM6D-0TLDdkItTFBNFP0M/view?usp=sharing">
         <button class="buttonresume">Resume</button>
         </a>
       </div>

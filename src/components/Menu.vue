@@ -31,7 +31,7 @@
         </a>
       </div>
       <div>
-        <a href="https://docs.google.com/document/d/e/2PACX-1vRB8NB0CaOvOnAFg7DabrPuBAaCyNsrnVtaLqzmPn7X0UTLraOei3U-zL-GoK1BNcJve7fvUW_sG0UC/pub?embedded=true">
+        <a href="./resume/FELIPE_HANITZSCH_CV.pdf">
         <button class="buttonresume">Resume</button>
         </a>
       </div>

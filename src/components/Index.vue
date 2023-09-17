@@ -11,7 +11,8 @@
     <p>Web Developer</p>
     <h1>Felipe Hanitzsch</h1>
     <p>Web developer in Html, CSS, Javascript and Vue.js</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aut fugiat aliquam quo modi tempora quaerat,<br> iusto autem unde voluptas quis natus molestias. Id facere quae eius fugit dolorum incidunt!</p>
+    <p>Welcome to my portfolio, feel free to take a look on my Github page and my <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">   
+        Linkedin</a>, do not resitate to contact me!</p>
   </div>
 </div>
 </template>

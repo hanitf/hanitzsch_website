@@ -28,7 +28,7 @@
         </a>
       </div>
       <div>
-        <a href="https://drive.google.com/file/d/1F61z7PyRPhRgM6D-0TLDdkItTFBNFP0M/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1F61z7PyRPhRgM6D-0TLDdkItTFBNFP0M/view?usp=sharing" target="_blank">
         <button class="buttonresume">Resume</button>
         </a>
       </div>

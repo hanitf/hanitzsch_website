@@ -31,7 +31,7 @@
         </a>
       </div>
       <div>
-        <a href="./resume/FELIPE_HANITZSCH_CV.pdf">
+        <a href="./resume\FELIPE_HANITZSCH_CV.pdf">
         <button class="buttonresume">Resume</button>
         </a>
       </div>

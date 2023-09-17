@@ -11,7 +11,7 @@
     <p>Web Developer</p>
     <h1>Felipe Hanitzsch</h1>
     <p>Web developer in Html, CSS, Javascript and Vue.js</p>
-    <p>Welcome to my portfolio, feel free to take a look on my Github page and my <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">   
+    <p>Welcome to my portfolio, feel free to take a look on my <a href="https://github.com/hanitf">Github</a> page and my <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">   
         Linkedin</a>, do not resitate to contact me!</p>
   </div>
 </div>

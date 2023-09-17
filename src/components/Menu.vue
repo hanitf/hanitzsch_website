@@ -7,9 +7,6 @@
 
     <div class="leftulmenu">
 
-      <li><a href="">Home</a></li>
-      <li><a href="">Projects</a></li>
-
     </div>
 
 

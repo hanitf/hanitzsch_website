@@ -28,7 +28,7 @@
         </a>
       </div>
       <div>
-        <a download="./resume\FELIPE_HANITZSCH_CV.pdf">
+        <a download="src\resume\FELIPE_HANITZSCH_CV.pdf">
         <button class="buttonresume">Resume</button>
         </a>
       </div>

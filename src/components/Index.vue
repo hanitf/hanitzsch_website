@@ -27,8 +27,15 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .indexname{
 padding-left: 50px;
+
+
+}
+
+.indexname, a{
 text-decoration: none;
-text-decoration: black;
+color: black;
+
+
 
 }
 

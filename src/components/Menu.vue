@@ -3,26 +3,25 @@
 </script>
 
 <template>
-  <nav class="navelements">
-
+  <div class="mainmenu">
     <div class="leftulmenu">
-
+<p>Home</p>
+<p>About me</p>
+<p>Skills</p>
+<p>Projects</p>
     </div>
-
-
-
     <div class="rightulmenu">
-      <div>
+      <div class="spaceimg">
         <a href="https://github.com/hanitf">
           <img class="logogithub" src="./logos/githublogo.png" alt="">
         </a>
       </div>
-      <div>
+      <div class="spaceimg">
         <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">
         <img class="logolinkedin" src="./logos/linkedinlogo.png" alt="">
         </a>
       </div>
-      <div>
+      <div class="spaceimg">
         <a href="mailto:felipe@hanitzsch.me">
         <img class="logomail" src="./logos/maillogo.png" alt="">
         </a>
@@ -32,44 +31,47 @@
         <button class="buttonresume">Resume</button>
         </a>
       </div>
-    </div>
-
-  </nav>
+  </div>
+</div>
 </template>
 
 <style scoped>
-.navelements {
+
+.mainmenu{
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-
+  position: fixed;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 100%;
+  background: rgba(196, 196, 196, 0.664);
+  backdrop-filter: blur(15px);
+  top: 0;
+  left: 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 80%;
 }
-
-
 .leftulmenu {
-  padding-left: 200px;
-  width: 350px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  font-size: 19px;
-  font-family: Poppins;
-  letter-spacing: 1.5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 500px;
 }
 
 .rightulmenu {
-  padding-right: 180px;
-  width: 300px;
   color: aliceblue;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 a {
@@ -108,6 +110,7 @@ a {
 .logogithub {
   padding-top: 9px;
   width: 35px;
+  padding-left: 10px;
 }
 
 .logolinkedin {
@@ -117,6 +120,10 @@ a {
 .logomail {
   padding-top: 6.3px;
   width: 40px;
+}
+
+.spaceimg{
+  padding-left: 10px;
 }
 
 </style>

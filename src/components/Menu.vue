@@ -4,12 +4,22 @@
 
 <template>
   <div class="mainmenu">
-    <div class="leftulmenu">
-<p>Home</p>
-<p>About me</p>
-<p>Skills</p>
-<p>Projects</p>
-    </div>
+    <div>
+      <ul class="leftulmenu">
+      <a href="">
+<li>Home</li>
+</a>
+<a href="#aboutme">
+<li>About me</li>
+</a>
+<a href="#skills">
+<li>Skills</li>
+</a>
+<a href="#projects">
+<li>Projects</li>
+</a>
+</ul>    
+</div>
     <div class="rightulmenu">
       <div class="spaceimg">
         <a href="https://github.com/hanitf">
@@ -52,7 +62,7 @@
   border-bottom: solid 1px rgba(255, 255, 255, 0.452);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  opacity: 80%;
+  opacity: 100%;
 }
 .leftulmenu {
   color: rgb(0, 0, 0);
@@ -65,6 +75,11 @@
   flex-direction: row;
   justify-content: space-around;
   width: 500px;
+}
+
+.leftulmenu li {
+  color: black;
+  text-shadow: 0px 8px 16px 0px white;
 }
 
 .rightulmenu {

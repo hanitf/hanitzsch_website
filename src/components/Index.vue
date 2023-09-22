@@ -28,6 +28,7 @@
     </div>
     <div class="skills" id="skills">
       <h1>Skills</h1>
+      <img src="./logos/skillslogo.png" alt="Skills logo" class="skillslogo">
       <p>Web developer in Html, CSS, Javascript and Vue.js</p>
       <p>Welcome to my portfolio, feel free to take a look on my <a href="https://github.com/hanitf">Github</a> page and
         my <a href="https://www.linkedin.com/in/felipe-hanitzsch-33b625122/">
@@ -73,4 +74,11 @@ a {
   background: #eee;
   margin: auto;
   padding: 15px 10px;
-}</style>
+}
+
+.skillslogo{
+  width: 190px;
+  height: 170px;
+}
+
+</style>

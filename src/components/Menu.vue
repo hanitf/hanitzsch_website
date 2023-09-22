@@ -37,7 +37,7 @@
         </a>
       </div>
       <div>
-        <a href="https://drive.google.com/file/d/1F61z7PyRPhRgM6D-0TLDdkItTFBNFP0M/view?usp=sharing" target="_blank">
+        <a href="https://docs.google.com/document/d/1Gg2WWUoUmBU1UrPM_1qyzYs20acma4X9ua-cDQjtlR8/edit?usp=sharing" target="_blank">
         <button class="buttonresume">Resume</button>
         </a>
       </div>
@@ -63,6 +63,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   opacity: 100%;
+  border-radius: 10px;
 }
 .leftulmenu {
   color: rgb(0, 0, 0);

@@ -37,7 +37,7 @@
       <h1 class="projectname">Projects</h1>
       <div class="projectframe">
       <iframe src="https://itodohanitzsch.netlify.app/" frameborder="0" height="300" width="500"></iframe>
-      <iframe src="https://itodohanitzsch.netlify.app/" frameborder="0" height="300" width="500"></iframe>
+      <iframe src="https://hanitf.netlify.app/" frameborder="0" height="300" width="500"></iframe>
     </div>
     </div>
   </div>

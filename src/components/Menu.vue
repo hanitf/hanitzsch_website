@@ -142,7 +142,8 @@ a {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+/* Styles for screens with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
   .mainmenu {
     justify-content: center;
     width: 100%;
@@ -161,60 +162,181 @@ a {
   }
 
   .leftulmenu {
-    width: 100%;
-    justify-content: center;
-    padding: 0;
-    font-size: 15px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 16px; /* Adjusted font size for screens up to 1200px */
+    letter-spacing: 1.2px; /* Adjusted letter spacing for screens up to 1200px */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; /* Adjusted width for screens up to 1200px */
   }
 
   .leftulmenu li {
-    text-align: center;
-    margin: 0 15px;
+    color: black;
+    text-shadow: 0px 8px 16px 0px white;
   }
 
   .rightulmenu {
-    width: 50%;
-    justify-content: center;
-    padding: 0;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(142, 140, 140);
   }
 
   .buttonresume {
     position: relative;
-  display: inline-block;
-  margin: 12px;
-  padding: 5px 30px;
-  text-align: center;
-  font-size: 10px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #000000;
-  background: transparent;
-  cursor: pointer;
-  transition: ease-out 0.5s;
-  border: 2px solid #000000;
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #000000;
+    display: inline-block;
+    margin: 12px;
+    padding: 5px 20px; /* Adjusted padding for screens up to 1200px */
+    text-align: center;
+    font-size: 12px; /* Adjusted font size for screens up to 1200px */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000000;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #000000;
+  }
+
+  .buttonresume:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #c9c5d4;
+  }
+
+  .buttoresume:active {
+    transform: scale(0.9);
   }
 
   .logogithub {
-  padding-top: 9px;
-  width: 35px;
-  padding-left: 10px;
+    padding-top: 9px;
+    width: 25px; /* Adjusted width for screens up to 1200px */
+    padding-left: 10px;
+  }
+
+  .logolinkedin {
+    padding-top: 6.3px;
+    width: 30px; /* Adjusted width for screens up to 1200px */
+  }
+  .logomail {
+    padding-top: 6.3px;
+    width: 30px; /* Adjusted width for screens up to 1200px */
+  }
+
+  .spaceimg {
+    padding-left: 10px;
+  }
 }
 
-.logolinkedin {
-  padding-top: 6.3px;
-  width: 40px;
-}
-.logomail {
-  padding-top: 6.3px;
-  width: 40px;
+/* Styles for screens with a maximum width of 950px */
+@media screen and (max-width: 950px) {
+  .mainmenu {
+    justify-content: center;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 0;
+    position: static;
+    backdrop-filter: none;
+    box-shadow: none;
+    position: fixed;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 100%;
+    background: rgba(196, 196, 196, 0.664);
+    backdrop-filter: blur(15px);
+  }
+
+  .leftulmenu {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 16px; /* Adjusted font size for screens up to 950px */
+    letter-spacing: 1.2px; /* Adjusted letter spacing for screens up to 950px */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; /* Adjusted width for screens up to 950px */
+  }
+
+  .leftulmenu li {
+    color: black;
+    text-shadow: 0px 8px 16px 0px white;
+  }
+
+  .rightulmenu {
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(142, 140, 140);
+  }
+
+  .buttonresume {
+    position: relative;
+    display: inline-block;
+    margin: 12px;
+    padding: 5px 20px; /* Adjusted padding for screens up to 950px */
+    text-align: center;
+    font-size: 12px; /* Adjusted font size for screens up to 950px */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000000;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #000000;
+  }
+
+  .buttonresume:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #c9c5d4;
+  }
+
+  .buttoresume:active {
+    transform: scale(0.9);
+  }
+
+  .logogithub {
+    padding-top: 9px;
+    width: 25px; /* Adjusted width for screens up to 950px */
+    padding-left: 10px;
+  }
+
+  .logolinkedin {
+    padding-top: 6.3px;
+    width: 30px; /* Adjusted width for screens up to 950px */
+  }
+  .logomail {
+    padding-top: 6.3px;
+    width: 30px; /* Adjusted width for screens up to 950px */
+  }
+
+  .spaceimg {
+    padding-left: 10px;
+  }
 }
 
-.spaceimg{
-  padding-left: 10px;
-}
-}
+
+
+
 
 
 </style>

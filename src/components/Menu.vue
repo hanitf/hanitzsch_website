@@ -142,4 +142,79 @@ a {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .mainmenu {
+    justify-content: center;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 0;
+    position: static;
+    backdrop-filter: none;
+    box-shadow: none;
+    position: fixed;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 100%;
+    background: rgba(196, 196, 196, 0.664);
+    backdrop-filter: blur(15px);
+  }
+
+  .leftulmenu {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .leftulmenu li {
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  .rightulmenu {
+    width: 50%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .buttonresume {
+    position: relative;
+  display: inline-block;
+  margin: 12px;
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000000;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #000000;
+  }
+
+  .logogithub {
+  padding-top: 9px;
+  width: 35px;
+  padding-left: 10px;
+}
+
+.logolinkedin {
+  padding-top: 6.3px;
+  width: 40px;
+}
+.logomail {
+  padding-top: 6.3px;
+  width: 40px;
+}
+
+.spaceimg{
+  padding-left: 10px;
+}
+}
+
+
 </style>

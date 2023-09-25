@@ -52,7 +52,6 @@
 .indexcss {
   display: flex;
   flex-direction: row;
-  padding-top: 110px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   align-items: center;
   height: 900px;
@@ -120,6 +119,61 @@ a {
 display: flex;
 flex-direction: row;
 }
+
+@media screen and (max-width: 1000px) {
+  .maincss {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .indexcss {
+    align-items: center;
+    height: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .indexname {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .indexlogo {
+    width: 200px;
+    height: 180px;
+    padding: 10px 5px;
+  }
+
+  .skillslogo {
+    width: 150px;
+    height: 135px;
+  }
+
+  .aboutmelogo {
+    width: 200px;
+    height: 180px;
+  }
+
+  .aboutme,
+  .skills{
+    height: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .projects {
+    height: 800px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+  .projectframe {
+    flex-direction: column;
+  }
+}
+
 
 
 </style>

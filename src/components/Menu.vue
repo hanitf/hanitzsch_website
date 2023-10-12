@@ -37,7 +37,7 @@
         </a>
       </div>
       <div>
-        <a href="https://docs.google.com/document/d/1Gg2WWUoUmBU1UrPM_1qyzYs20acma4X9ua-cDQjtlR8/edit?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1mdgNx6JFTfBoedx0XQcqAtP6u9ZjaTn9/view?usp=drive_link" target="_blank">
         <button class="buttonresume">Resume</button>
         </a>
       </div>
